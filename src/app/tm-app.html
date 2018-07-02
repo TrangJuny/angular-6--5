@@ -1,0 +1,26 @@
+﻿<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <input type="checkbox" id="navbar-toggle-cbox">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="javascript:void(0)">
+                <img alt="logo" src="../assets/images/logo.png" />
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li routerLinkActive="active">
+                    <a routerLink="dashboard">Dashboard</a>
+                </li>
+                <li routerLinkActive="active">
+                    <a routerLink="projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1 class="header">Xingate</h1>
+
+<div class="main-container">
+    <router-outlet></router-outlet>
+</div>
